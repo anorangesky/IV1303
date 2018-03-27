@@ -4,6 +4,8 @@ public class Main {
         int i;
         for (i = 0; i < n; i++) {
             System.out.println(i + 1 + ": " + Assignment4.Fib.fib(i));
+            System.out.println("HEJ VLK!!!!");
         }
     }
 }
+
