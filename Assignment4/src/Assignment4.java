@@ -11,7 +11,7 @@ public class Assignment4 {
        if (operator == "+") {
            addition(tal1, tal2);
        } else if (operator == "-") {
-           subtraction(tal1, tal2)
+           subtraction(tal1, tal2);
        } else if (operator == "*"){
            multiplication(tal1, tal2);
        }else if(operator "/"){
@@ -31,16 +31,5 @@ public class Assignment4 {
    public static float division(int x,int y){
        return x/y;
    }
-
-
-
-
-
-
-
-        public static int fib(int n) {
-            if (n <= 1) return n;
-            return fib(n - 1) + fib(n - 2);
-        }
 
 }
