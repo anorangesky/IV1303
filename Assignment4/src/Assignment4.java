@@ -1,4 +1,4 @@
-import java.lang.*
+import java.lang.*;
 public class Assignment4 {
 
     //This is just a test template
