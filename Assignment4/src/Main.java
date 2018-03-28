@@ -7,5 +7,9 @@ public class Main {
 
             System.out.println("Isn't Fibonacci the best calculator ever? And so are you, so what is " + n + "divided by 3?");
         }
+
+        System.out.println(simpleLogicCalc(args));
+
+
     }
 }
