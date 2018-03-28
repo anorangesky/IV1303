@@ -8,15 +8,15 @@ public class Assignment4 {
        int tal2 = args[2];
        char operator = args[1];
 
-       if (operator == "+") {
+       if (operator.equals("+")) {
            addition(tal1, tal2);
-       } else if (operator == "-") {
+       } else if (operator.equals("-")) {
            subtraction(tal1, tal2);
-       } else if (operator == "*"){
+       } else if (operator.equals("*")){
            multiplication(tal1, tal2);
-       }else if(operator "/"){
+       }else if(operator.equals("/")){
            division(tal1, tal2);
-       }else throw Exception;
+       }else throw Exception e;
    }
 
    public static int addition(int x, int y){
