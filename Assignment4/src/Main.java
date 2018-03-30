@@ -1,5 +1,7 @@
+
 public class Main {
     public static void main(String[] args) {
+<<<<<<< HEAD
         int n = Integer.parseInt(args[0]);
         int i;
         for (i = 0; i < n; i++) {
@@ -13,6 +15,13 @@ public class Main {
         System.out.println(simpleLogicCalc(args));
 
 
+=======
+        int int1 = Integer.parseInt(args[0]);
+        int int2 = Integer.parseInt(args[2]);
+        //char op = ??
+       //how do i read the "char" from the args[1]?
+        System.out.println(Assignment4.simpleLogicCalc(int1, op, int2));
+>>>>>>> origin/testing
     }
 }
 
