@@ -5,7 +5,8 @@ public class Main {
         for (i = 0; i < n; i++) {
             System.out.println(i + 1 + ": " + Assignment4.Fib.fib(i));
 
-            System.out.println("HEJ VLK!!!!");
+            System.out.println("HEJ AGGE SKALBAGGE!!!!<3<3<3<3");
+            System.out.println("HOPPAS INNERLIGT JAG INTE SABBAR NÅGOT NU!!!!");
             System.out.println("Isn't Fibonacci the best calculator ever? And so are you, so what is " + n + "divided by 3?");
         }
 
