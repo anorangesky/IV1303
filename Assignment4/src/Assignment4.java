@@ -1,13 +1,8 @@
 import java.lang.*;
 public class Assignment4 {
 
-    //This is just a test template
-
-   public static void simpleLogicCalc(args[]) {
-       int tal1 = args[0];
-       int tal2 = args[2];
-       char operator = args[1];
-
+   public static void simpleLogicCalc(int tal1, char operator, int tal2) {
+//seems like .equals doesn't work ... ??? 
        if (operator.equals("+")) {
            addition(tal1, tal2);
        } else if (operator.equals("-")) {
@@ -18,7 +13,7 @@ public class Assignment4 {
            division(tal1, tal2);
        }else throw Exception e;
    }
-
+    //the four logic operations as functions
    public static int addition(int x, int y){
        return x + y;
    }
